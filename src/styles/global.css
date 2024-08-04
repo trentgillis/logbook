@@ -1,3 +1,12 @@
+:root {
+  --background-color: hsl(210deg 15% 6% / 1);
+}
+
 * {
   font-family: 'Lato', sans-serif;
+  color: #f8f8f8;
+}
+
+body {
+  background-color: var(--background-color);
 }
