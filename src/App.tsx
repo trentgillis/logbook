@@ -1,5 +1,11 @@
+import Nav from './components/Nav';
+
 function App() {
-  return <h1>Logbook</h1>;
+  return (
+    <>
+      <Nav />
+    </>
+  );
 }
 
 export default App;
