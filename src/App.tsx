@@ -1,3 +1,4 @@
+import Container from './components/Container/Container';
 import Nav from './components/Nav';
 import SendTable from './components/SendTable';
 
@@ -5,7 +6,9 @@ function App() {
   return (
     <>
       <Nav />
-      <SendTable />
+      <Container>
+        <SendTable />
+      </Container>
     </>
   );
 }

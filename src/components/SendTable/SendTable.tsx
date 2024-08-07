@@ -16,7 +16,7 @@ function SendTable() {
     fetchSends();
   }, []);
 
-  return sends.map((send) => <p>{send.name}</p>);
+  return sends.map((send) => <p key={send.id}>{send.name}</p>);
 }
 
 export default SendTable;
