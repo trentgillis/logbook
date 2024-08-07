@@ -1,0 +1,13 @@
+.header {
+  border-bottom: 1px solid white;
+}
+
+.header th {
+  font-size: 0.875rem;
+  text-align: left;
+  padding: 12px 0;
+}
+
+.header > tr > th:nth-child(1) {
+  width: 30%;
+}

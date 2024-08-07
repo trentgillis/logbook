@@ -1,7 +1,8 @@
 export type Send = {
   id: number;
   name: string;
-  type: number;
+  grade: number;
   area: string;
   state: string;
+  flash: boolean;
 };

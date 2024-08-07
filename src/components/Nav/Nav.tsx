@@ -14,8 +14,8 @@ function Nav() {
         />
         <defs>
           <linearGradient id="paint0_linear_2_3" x1="-8" y1="0.5" x2="81.5" y2="47" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FFDD2A" />
-            <stop offset="1" stop-color="#F8A606" />
+            <stop stopColor="#FFDD2A" />
+            <stop offset="1" stopColor="#F8A606" />
           </linearGradient>
         </defs>
       </svg>
