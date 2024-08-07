@@ -1,5 +1,5 @@
 .wrapper {
-  height: 80px;
+  height: 60px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -8,5 +8,5 @@
 }
 
 .logo {
-  height: 32px;
+  height: 24px;
 }
