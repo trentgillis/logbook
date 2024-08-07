@@ -4,6 +4,7 @@ import React from 'react';
 
 import { Send } from '@/types/Send';
 import SendTableHeader from './SendTableHeader';
+import SendRow from './SendRow';
 
 function SendTable() {
   const [sends, setSends] = React.useState<Send[]>([]);
@@ -23,14 +24,9 @@ function SendTable() {
     <table className={styles.table}>
       <SendTableHeader />
       <tbody>
-        {sends.map((send) => {
-          return (
-            <tr key={send.id}>
-              <td>{send.name}</td>
-              <td>{send.grade}</td>
-            </tr>
-          );
-        })}
+        {sends.map((send) => (
+          <SendRow key={send.id} send={send} />
+        ))}
       </tbody>
     </table>
   );

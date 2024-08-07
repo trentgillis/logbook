@@ -1,0 +1,6 @@
+.row {
+}
+
+.row > td {
+  padding: 12px 0;
+}

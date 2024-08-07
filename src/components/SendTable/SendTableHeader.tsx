@@ -5,9 +5,7 @@ function SendTableHeader() {
     <thead className={styles.header}>
       <tr>
         <th scope="col">Name</th>
-        <th scope="col" className={`${styles.headerColumn}`}>
-          Grade
-        </th>
+        <th scope="col">Grade</th>
       </tr>
     </thead>
   );
