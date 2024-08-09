@@ -5,4 +5,5 @@ export type Send = {
   area: string;
   state: string;
   flash: boolean;
+  date: number;
 };

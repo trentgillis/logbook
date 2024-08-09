@@ -11,10 +11,13 @@ function SendTable() {
 
   React.useEffect(() => {
     async function fetchSends() {
-      const data = await fetch('sends.json');
-      const json = await data.json();
-
-      setSends(json);
+      try {
+        const data = await fetch('sends.json');
+        const json = await data.json();
+        setSends(json);
+      } catch (e) {
+        console.error(e);
+      }
     }
 
     fetchSends();

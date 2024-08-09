@@ -1,6 +1,17 @@
-.row {
-}
-
 .row > td {
   padding: 12px 0;
+}
+
+.name {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.location {
+  font-size: 0.875rem;
+}
+
+.grade {
+  display: flex;
+  flex-direction: column;
 }
