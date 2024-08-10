@@ -3,6 +3,9 @@
 }
 
 .name {
+  display: flex;
+  align-items: center;
+  gap: 4px;
   font-size: 1.125rem;
   font-weight: 700;
 }

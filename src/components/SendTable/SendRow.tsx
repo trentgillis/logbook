@@ -1,6 +1,7 @@
 import styles from './SendRow.module.css';
 
 import { Send } from '@/types/Send';
+import SendTypeBadge from './SendTypeBadge';
 
 type SendRowProps = {
   send: Send;
@@ -9,6 +10,9 @@ type SendRowProps = {
 function SendRow({ send }: SendRowProps) {
   return (
     <tr className={styles.row}>
+      <td>
+        <SendTypeBadge flash={send.flash} />
+      </td>
       <td>
         <div className={styles.name}>{send.name}</div>
         <div className={styles.location}>

@@ -9,5 +9,18 @@
 }
 
 .header > tr > th:nth-child(1) {
+  width: 6%;
+}
+
+.header > tr > th:nth-child(2) {
   width: 30%;
+}
+
+.header > tr > th:nth-child(3) {
+  width: 15%;
+}
+
+.header > tr > th:nth-child(4) {
+  width: 100%;
+  float: left;
 }
