@@ -22,7 +22,7 @@ function Nav() {
             gradientUnits="userSpaceOnUse"
           >
             <stop stopColor="#FFDD2A" />
-            <stop offset="1" stopColor="#F8A606" />
+            <stop offset="1" stopColor="#3CCCEC" />
           </linearGradient>
         </defs>
       </svg>
