@@ -1,7 +1,8 @@
 :root {
   --color-background: hsl(210deg 15% 6% / 1);
   --color-primary: hsl(50deg 100% 58% / 1);
-  --color-secondary: hsl(191deg 82% 58% / 1);
+  --color-secondary: hsl(342deg 87% 54% / 1);
+  --color-bling: hsl(191deg 82% 58% / 1);
 }
 
 * {
