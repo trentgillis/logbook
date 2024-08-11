@@ -1,59 +1,10 @@
-import { Bar, BarChart, Rectangle, ResponsiveContainer, Tooltip, XAxis } from 'recharts';
 import styles from './GradesChart.module.css';
-import React from 'react';
-import GradesChartTooltip from './GradesChartTooltip';
+
+import { Bar, BarChart, Rectangle, ResponsiveContainer, Tooltip, XAxis } from 'recharts';
+
 import { Send } from '@/types/Send';
 
-const data = [
-  {
-    name: 'V1',
-    numberOfSends: 1,
-  },
-  {
-    name: 'V2',
-    numberOfSends: 3,
-  },
-  {
-    name: 'V3',
-    numberOfSends: 0,
-  },
-  {
-    name: 'V4',
-    numberOfSends: 0,
-  },
-  {
-    name: 'V5',
-    numberOfSends: 5,
-  },
-  {
-    name: 'V6',
-    numberOfSends: 3,
-  },
-  {
-    name: 'V7',
-    numberOfSends: 12,
-  },
-  {
-    name: 'V8',
-    numberOfSends: 21,
-  },
-  {
-    name: 'V9',
-    numberOfSends: 11,
-  },
-  {
-    name: 'V10',
-    numberOfSends: 3,
-  },
-  {
-    name: 'V11',
-    numberOfSends: 8,
-  },
-  {
-    name: 'V12',
-    numberOfSends: 1,
-  },
-];
+import GradesChartTooltip from './GradesChartTooltip';
 
 type GradesChartProps = {
   sendData: Send[];
@@ -82,6 +33,10 @@ function GradesChart({ sendData }: GradesChartProps) {
 
   return (
     <div className={styles.wrapper}>
+      <div className={styles.totalWrapper}>
+        <span className={styles.totalLabel}>Total:</span>
+        {sendData.length} sends
+      </div>
       <ResponsiveContainer width="100%" height={184}>
         <BarChart data={sendChartData}>
           <XAxis
