@@ -7,8 +7,6 @@ type GradesChartTooltipProps = {
 };
 
 function GradesChartTooltip({ active, payload, label }: GradesChartTooltipProps) {
-  console.log(payload);
-
   if (!active || !payload || !payload.length) {
     return null;
   }

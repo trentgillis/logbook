@@ -2,6 +2,7 @@ import { Bar, BarChart, Rectangle, ResponsiveContainer, Tooltip, XAxis } from 'r
 import styles from './GradesChart.module.css';
 import React from 'react';
 import GradesChartTooltip from './GradesChartTooltip';
+import { Send } from '@/types/Send';
 
 const data = [
   {
@@ -54,11 +55,35 @@ const data = [
   },
 ];
 
-function GradesChart() {
+type GradesChartProps = {
+  sendData: Send[];
+};
+
+function getSendChartData(sendData: Send[]) {
+  if (!sendData.length) {
+    return [];
+  }
+
+  const maxGrade = Math.max(...sendData.map((send) => send.grade));
+  const gradeCounts = new Array(maxGrade).fill(0);
+
+  for (const send of sendData) {
+    gradeCounts[send.grade - 1] += 1;
+  }
+
+  return gradeCounts.map((gradeCount, index) => ({
+    name: `V${index + 1}`,
+    numberOfSends: gradeCount,
+  }));
+}
+
+function GradesChart({ sendData }: GradesChartProps) {
+  const sendChartData = getSendChartData(sendData);
+
   return (
     <div className={styles.wrapper}>
       <ResponsiveContainer width="100%" height={184}>
-        <BarChart data={data}>
+        <BarChart data={sendChartData}>
           <XAxis
             dataKey="name"
             axisLine={false}
