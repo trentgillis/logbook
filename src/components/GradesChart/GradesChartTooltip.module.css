@@ -1,0 +1,23 @@
+.wrapper {
+  padding: 4px 12px;
+  border-radius: 2px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #080808;
+}
+
+.wrapper > * {
+  font-size: 0.875rem;
+}
+
+.tooltipLabel {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
+.tooltipValue {
+  color: #080808;
+}

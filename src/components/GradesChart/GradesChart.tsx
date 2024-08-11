@@ -1,5 +1,7 @@
-import { Bar, BarChart, Rectangle, ResponsiveContainer, XAxis } from 'recharts';
+import { Bar, BarChart, Rectangle, ResponsiveContainer, Tooltip, XAxis } from 'recharts';
 import styles from './GradesChart.module.css';
+import React from 'react';
+import GradesChartTooltip from './GradesChartTooltip';
 
 const data = [
   {
@@ -64,7 +66,13 @@ function GradesChart() {
             tickMargin={8}
             tick={{ fill: '#fff', height: 2, fontSize: 14 }}
           />
-          <Bar shape={<Rectangle radius={2} />} dataKey="numberOfSends" fill="#ffdd2a" />
+          <Tooltip cursor={false} content={<GradesChartTooltip />} />
+          <Bar
+            shape={<Rectangle radius={2} />}
+            dataKey="numberOfSends"
+            fill="#ffdd2a"
+            activeBar={<Rectangle radius={2} fill="#f02260" />}
+          />
         </BarChart>
       </ResponsiveContainer>
     </div>
