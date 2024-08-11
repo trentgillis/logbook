@@ -2,6 +2,7 @@ import styles from './SendRow.module.css';
 
 import { Send } from '@/types/Send';
 import SendTypeBadge from './SendTypeBadge';
+import SendRating from './SendRating';
 
 type SendRowProps = {
   send: Send;
@@ -21,6 +22,9 @@ function SendRow({ send }: SendRowProps) {
       </td>
       <td>V{send.grade}</td>
       <td>{new Date(send.date).toLocaleDateString('en-us', { month: 'short', year: 'numeric' })}</td>
+      <td>
+        <SendRating rating={send.rating} />
+      </td>
     </tr>
   );
 }

@@ -6,6 +6,7 @@
     "area": "Ute Pass",
     "state": "CO",
     "type": "redpoint",
+    "rating": 5,
     "date": 1650024000000
   },
   {
@@ -15,6 +16,7 @@
     "area": "Clear Creek Canyon",
     "state": "CO",
     "type": "redpoint",
+    "rating": 3,
     "date": 1621080000000
   },
   {
