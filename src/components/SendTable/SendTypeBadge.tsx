@@ -1,19 +1,31 @@
+import { SendType } from '@/types/Send';
 import styles from './SendTypeBadge.module.css';
 
-import { Check, CircleCheckBig, Dot, ThumbsUp, Zap } from 'lucide-react';
+import { CircleCheckBig, Gem, Zap } from 'lucide-react';
 
 type SendTypeBadgeProps = {
-  flash?: boolean;
+  type?: SendType;
 };
 
-function SendTypeBadge({ flash }: SendTypeBadgeProps) {
+function getSendTypeIcon(type: SendType) {
+  switch (type) {
+    case 'redpoint':
+      return CircleCheckBig;
+    case 'flash':
+      return Zap;
+    case 'fotg':
+      return Gem;
+    default:
+      return CircleCheckBig;
+  }
+}
+
+function SendTypeBadge({ type = 'redpoint' }: SendTypeBadgeProps) {
+  const Icon = getSendTypeIcon(type);
+
   return (
     <div className={styles.wrapper}>
-      {flash ? (
-        <Zap className={styles.flashIcon} strokeWidth={2} />
-      ) : (
-        <CircleCheckBig className={styles.redpointIcon} strokeWidth={2} />
-      )}
+      <Icon className={`${styles.icon} ${styles[type]}`} />
     </div>
   );
 }

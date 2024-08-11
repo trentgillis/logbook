@@ -11,7 +11,7 @@ function SendRow({ send }: SendRowProps) {
   return (
     <tr className={styles.row}>
       <td>
-        <SendTypeBadge flash={send.flash} />
+        <SendTypeBadge type={send.type} />
       </td>
       <td>
         <div className={styles.name}>{send.name}</div>

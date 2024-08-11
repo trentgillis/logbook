@@ -5,6 +5,7 @@
     "grade": 11,
     "area": "Ute Pass",
     "state": "CO",
+    "type": "redpoint",
     "date": 1650024000000
   },
   {
@@ -13,6 +14,7 @@
     "grade": 8,
     "area": "Clear Creek Canyon",
     "state": "CO",
+    "type": "redpoint",
     "date": 1621080000000
   },
   {
@@ -21,6 +23,7 @@
     "grade": 10,
     "area": "Roy",
     "state": "NM",
+    "type": "redpoint",
     "date": 1552651200000
   },
   {
@@ -29,6 +32,7 @@
     "grade": 9,
     "area": "Roy",
     "state": "NM",
+    "type": "redpoint",
     "date": 1552651200000
   },
   {
@@ -37,6 +41,7 @@
     "grade": 6,
     "area": "Roy",
     "state": "NM",
+    "type": "redpoint",
     "date": 1552651200000
   },
   {
@@ -45,6 +50,7 @@
     "grade": 6,
     "area": "Roy",
     "state": "NM",
+    "type": "redpoint",
     "date": 1552651200000
   },
   {
@@ -53,14 +59,16 @@
     "grade": 8,
     "area": "Roy",
     "state": "NM",
+    "type": "redpoint",
     "date": 1552651200000
   },
   {
     "id": 44,
     "name": "Fun Bags",
-    "grade": 10,
+    "grade": 6,
     "area": "Roy",
     "state": "NM",
+    "type": "flash",
     "date": 1552651200000
   },
   {
@@ -69,6 +77,7 @@
     "grade": 5,
     "area": "Roy",
     "state": "NM",
+    "type": "redpoint",
     "date": 1552651200000
   },
   {
@@ -77,6 +86,7 @@
     "grade": 5,
     "area": "Roy",
     "state": "NM",
+    "type": "redpoint",
     "date": 1552651200000
   },
   {
@@ -85,6 +95,7 @@
     "grade": 5,
     "area": "Roy",
     "state": "NM",
+    "type": "redpoint",
     "date": 1552651200000
   },
   {
@@ -93,7 +104,17 @@
     "grade": 10,
     "area": "Clear Creek Canyon",
     "state": "CO",
+    "type": "redpoint",
     "date": 1544875200000
+  },
+  {
+    "id": 39,
+    "name": "North Shore",
+    "grade": 9,
+    "area": "Clear Creek Canyon",
+    "state": "CO",
+    "type": "redpoint",
+    "date": 1544917983000
   },
   {
     "id": 39,
@@ -101,6 +122,7 @@
     "grade": 5,
     "area": "Guanella Pass",
     "state": "CO",
+    "type": "redpoint",
     "date": 1529064000000
   },
   {
@@ -109,6 +131,7 @@
     "grade": 8,
     "area": "Guanella Pass",
     "state": "CO",
+    "type": "redpoint",
     "date": 1529064000000
   },
   {
@@ -117,14 +140,61 @@
     "grade": 8,
     "area": "Guanella Pass",
     "state": "CO",
+    "type": "redpoint",
     "date": 1529064000000
   },
   {
-    "id": 36,
-    "name": "Cage Free",
+    "id": 30,
+    "name": "Milkman",
+    "grade": 8,
+    "area": "Joes Valley",
+    "state": "UT",
+    "type": "redpoint",
+    "date": 1521115200000
+  },
+  {
+    "id": 30,
+    "name": "Powdered Toast Man",
+    "grade": 8,
+    "area": "Joes Valley",
+    "state": "UT",
+    "type": "redpoint",
+    "date": 1521115200000
+  },
+  {
+    "id": 30,
+    "name": "Electric Fence",
+    "grade": 7,
+    "area": "Joes Valley",
+    "state": "UT",
+    "type": "redpoint",
+    "date": 1521115200000
+  },
+  {
+    "id": 30,
+    "name": "Death Scream",
     "grade": 10,
-    "area": "Boulder Canyon",
-    "state": "CO",
+    "area": "Joes Valley",
+    "state": "UT",
+    "type": "redpoint",
+    "date": 1521115200000
+  },
+  {
+    "id": 30,
+    "name": "Worst Case Scenario",
+    "grade": 9,
+    "area": "Joes Valley",
+    "state": "UT",
+    "type": "redpoint",
+    "date": 1521115200000
+  },
+  {
+    "id": 30,
+    "name": "They Call Him Jordan",
+    "grade": 8,
+    "area": "Joes Valley",
+    "state": "UT",
+    "type": "redpoint",
     "date": 1521115200000
   },
   {
@@ -133,6 +203,7 @@
     "grade": 7,
     "area": "Joes Valley",
     "state": "UT",
+    "type": "redpoint",
     "date": 1521115200000
   },
   {
@@ -141,6 +212,7 @@
     "grade": 9,
     "area": "Joes Valley",
     "state": "UT",
+    "type": "redpoint",
     "date": 1521115200000
   },
   {
@@ -149,15 +221,25 @@
     "grade": 9,
     "area": "Joes Valley",
     "state": "UT",
+    "type": "redpoint",
     "date": 1521115200000
   },
   {
     "id": 32,
     "name": "The Angler",
-    "grade": 9,
+    "grade": 2,
     "area": "Joes Valley",
     "state": "UT",
-    "flash": true,
+    "type": "flash",
+    "date": 1521115200000
+  },
+  {
+    "id": 32,
+    "name": "Wills Afire",
+    "grade": 6,
+    "area": "Joes Valley",
+    "state": "UT",
+    "type": "flash",
     "date": 1521115200000
   },
   {
@@ -166,6 +248,7 @@
     "grade": 5,
     "area": "Joes Valley",
     "state": "UT",
+    "type": "redpoint",
     "date": 1521115200000
   },
   {
@@ -174,6 +257,16 @@
     "grade": 9,
     "area": "Joes Valley",
     "state": "UT",
+    "type": "redpoint",
+    "date": 1521115200000
+  },
+  {
+    "id": 36,
+    "name": "Cage Free",
+    "grade": 10,
+    "area": "Boulder Canyon",
+    "state": "CO",
+    "type": "fotg",
     "date": 1521115200000
   },
   {
@@ -182,6 +275,7 @@
     "grade": 5,
     "area": "Joes Valley",
     "state": "UT",
+    "type": "redpoint",
     "date": 1516017600000
   },
   {
@@ -190,6 +284,7 @@
     "grade": 7,
     "area": "Joes Valley",
     "state": "UT",
+    "type": "redpoint",
     "date": 1516017600000
   },
   {
@@ -198,7 +293,7 @@
     "grade": 6,
     "area": "Joes Valley",
     "state": "UT",
-    "flash": true,
+    "type": "flash",
     "date": 1516017600000
   },
   {
@@ -207,6 +302,7 @@
     "grade": 5,
     "area": "Clear Creek Canyon",
     "state": "CO",
+    "type": "redpoint",
     "date": 1516017600000
   },
   {
@@ -215,6 +311,7 @@
     "grade": 7,
     "area": "Clear Creek Canyon",
     "state": "CO",
+    "type": "redpoint",
     "date": 1516017600000
   },
   {
@@ -223,6 +320,7 @@
     "grade": 11,
     "area": "Eleven Mile Canyon",
     "state": "CO",
+    "type": "redpoint",
     "date": 1513339200000
   },
   {
@@ -231,6 +329,7 @@
     "grade": 12,
     "area": "Eleven Mile Canyon",
     "state": "CO",
+    "type": "fotg",
     "date": 1510747200000
   },
   {
@@ -239,6 +338,7 @@
     "grade": 11,
     "area": "Eleven Mile Canyon",
     "state": "CO",
+    "type": "redpoint",
     "date": 1510747200000
   },
   {
@@ -247,7 +347,8 @@
     "grade": 9,
     "area": "Eldorado Canyon",
     "state": "CO",
-    "date": 1510747200000
+    "type": "fotg",
+    "date": 1508111583000
   },
   {
     "id": 20,
@@ -255,6 +356,7 @@
     "grade": 11,
     "area": "Lincoln Lake",
     "state": "CO",
+    "type": "fotg",
     "date": 1505476800000
   },
   {
@@ -263,6 +365,7 @@
     "grade": 7,
     "area": "Lincoln Lake",
     "state": "CO",
+    "type": "redpoint",
     "date": 1505476800000
   },
   {
@@ -271,6 +374,7 @@
     "grade": 8,
     "area": "Lincoln Lake",
     "state": "CO",
+    "type": "redpoint",
     "date": 1505476800000
   },
   {
@@ -279,6 +383,7 @@
     "grade": 8,
     "area": "Newlin Creek",
     "state": "CO",
+    "type": "redpoint",
     "date": 1505476800000
   },
   {
@@ -287,6 +392,7 @@
     "grade": 6,
     "area": "Newlin Creek",
     "state": "CO",
+    "type": "redpoint",
     "date": 1505476800000
   },
   {
@@ -295,6 +401,7 @@
     "grade": 6,
     "area": "Newlin Creek",
     "state": "CO",
+    "type": "redpoint",
     "date": 1505476800000
   },
   {
@@ -303,6 +410,7 @@
     "grade": 8,
     "area": "Newlin Creek",
     "state": "CO",
+    "type": "redpoint",
     "date": 1505476800000
   },
   {
@@ -311,6 +419,16 @@
     "grade": 8,
     "area": "Newlin Creek",
     "state": "CO",
+    "type": "redpoint",
+    "date": 1505476800000
+  },
+  {
+    "id": 13,
+    "name": "Beartrap",
+    "grade": 7,
+    "area": "Newlin Creek",
+    "state": "CO",
+    "type": "redpoint",
     "date": 1505476800000
   },
   {
@@ -319,6 +437,7 @@
     "grade": 8,
     "area": "Eleven Mile Canyon",
     "state": "CO",
+    "type": "redpoint",
     "date": 1505476800000
   },
   {
@@ -327,6 +446,7 @@
     "grade": 8,
     "area": "Pikes Peak",
     "state": "CO",
+    "type": "redpoint",
     "date": 1502798400000
   },
   {
@@ -335,6 +455,7 @@
     "grade": 7,
     "area": "Rocky Mountain National Park",
     "state": "CO",
+    "type": "redpoint",
     "date": 1500120000000
   },
   {
@@ -343,6 +464,7 @@
     "grade": 7,
     "area": "Rocky Mountain National Park",
     "state": "CO",
+    "type": "redpoint",
     "date": 1500120000000
   },
   {
@@ -351,6 +473,7 @@
     "grade": 7,
     "area": "Rocky Mountain National Park",
     "state": "CO",
+    "type": "redpoint",
     "date": 1500120000000
   },
   {
@@ -359,14 +482,7 @@
     "grade": 7,
     "area": "Rocky Mountain National Park",
     "state": "CO",
-    "date": 1500120000000
-  },
-  {
-    "id": 6,
-    "name": "Spray Direct",
-    "grade": 8,
-    "area": "Eleven Mile Canyon",
-    "state": "CO",
+    "type": "redpoint",
     "date": 1500120000000
   },
   {
@@ -375,6 +491,25 @@
     "grade": 8,
     "area": "Ute Vallue Park",
     "state": "CO",
+    "type": "redpoint",
+    "date": 1500120000000
+  },
+  {
+    "id": 6,
+    "name": "Spray Direct",
+    "grade": 7,
+    "area": "Eleven Mile Canyon",
+    "state": "CO",
+    "type": "redpoint",
+    "date": 1500120000000
+  },
+  {
+    "id": 6,
+    "name": "Spray Direct SDS",
+    "grade": 8,
+    "area": "Eleven Mile Canyon",
+    "state": "CO",
+    "type": "fotg",
     "date": 1500120000000
   },
   {
@@ -383,7 +518,35 @@
     "grade": 5,
     "area": "Ute Vallue Park",
     "state": "CO",
+    "type": "redpoint",
     "date": 1500120000000
+  },
+  {
+    "id": 6,
+    "name": "Timeline",
+    "grade": 1,
+    "area": "Mt. Blue Sky",
+    "state": "CO",
+    "type": "fotg",
+    "date": 1497570783000
+  },
+  {
+    "id": 6,
+    "name": "The Ladder",
+    "grade": 2,
+    "area": "Mt. Blue Sky",
+    "state": "CO",
+    "type": "fotg",
+    "date": 1497570783000
+  },
+  {
+    "id": 6,
+    "name": "Compression Matters",
+    "grade": 6,
+    "area": "Guanella Pass",
+    "state": "CO",
+    "type": "redpoint",
+    "date": 1497570783000
   },
   {
     "id": 3,
@@ -391,6 +554,7 @@
     "grade": 7,
     "area": "Newlin Creek",
     "state": "CO",
+    "type": "fotg",
     "date": 1487160000000
   },
   {
@@ -399,6 +563,7 @@
     "grade": 6,
     "area": "Newlin Creek",
     "state": "CO",
+    "type": "fotg",
     "date": 1487160000000
   },
   {
@@ -407,6 +572,7 @@
     "grade": 5,
     "area": "Newlin Creek",
     "state": "CO",
+    "type": "fotg",
     "date": 1487160000000
   }
 ]
