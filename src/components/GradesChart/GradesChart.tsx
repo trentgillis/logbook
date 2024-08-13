@@ -31,6 +31,10 @@ function getSendChartData(sendData: Send[]) {
 function GradesChart({ sendData }: GradesChartProps) {
   const sendChartData = getSendChartData(sendData);
 
+  if (!sendData.length) {
+    return null;
+  }
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.totalWrapper}>

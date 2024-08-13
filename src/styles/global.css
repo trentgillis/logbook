@@ -10,6 +10,10 @@
   color: #f8f8f8;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   background-color: var(--color-background);
 }

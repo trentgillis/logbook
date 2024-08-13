@@ -1,6 +1,6 @@
 .table {
   border-collapse: collapse;
-  animation: fade-in 0.5s;
+  animation: fade-in 0.3s;
 }
 
 @keyframes fade-in {
