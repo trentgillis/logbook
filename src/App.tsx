@@ -25,7 +25,6 @@ function App() {
 
   return (
     <>
-      <Nav />
       <Container>
         <GradesChart sendData={sendData} />
         <SendTable sendData={sendData} />
