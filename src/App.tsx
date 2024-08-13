@@ -2,7 +2,6 @@ import React from 'react';
 
 import Container from './components/Container/Container';
 import GradesChart from './components/GradesChart';
-import Nav from './components/Nav';
 import SendTable from './components/SendTable';
 import { Send } from './types/Send';
 
