@@ -9,6 +9,10 @@ type SendTableProps = {
 };
 
 function SendTable({ sendData }: SendTableProps) {
+  if (!sendData.length) {
+    return null;
+  }
+
   return (
     <table className={styles.table}>
       <SendTableHeader />
