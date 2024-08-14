@@ -31,15 +31,15 @@ function getSendChartData(sendData: Send[]) {
 function GradesChart({ sendData }: GradesChartProps) {
   const sendChartData = getSendChartData(sendData);
 
-  if (!sendData.length) {
-    return null;
-  }
-
   return (
     <div className={styles.wrapper}>
       <div className={styles.totalWrapper}>
-        <span className={styles.totalLabel}>Total:</span>
-        {sendData.length} sends
+        {sendData.length && (
+          <>
+            <span className={styles.totalLabel}>Total:</span>
+            {sendData.length} sends
+          </>
+        )}
       </div>
       <ResponsiveContainer width="100%" height={184}>
         <BarChart data={sendChartData}>
