@@ -23,3 +23,13 @@
   display: flex;
   flex-direction: column;
 }
+
+.rating {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .rating {
+    display: table-cell;
+  }
+}

@@ -9,18 +9,40 @@
 }
 
 .header > tr > th:nth-child(1) {
-  width: 5%;
+  width: 10%;
 }
 
 .header > tr > th:nth-child(2) {
-  width: 40%;
+  width: 50%;
 }
 
 .header > tr > th:nth-child(3) {
-  width: 15%;
+  width: 20%;
 }
 
 .header > tr > th:nth-child(4) {
   width: 100%;
   float: left;
+}
+
+.header > tr > th:nth-child(5) {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .header > tr > th:nth-child(1) {
+    width: 5%;
+  }
+
+  .header > tr > th:nth-child(2) {
+    width: 40%;
+  }
+
+  .header > tr > th:nth-child(3) {
+    width: 15%;
+  }
+
+  .header > tr > th:nth-child(5) {
+    display: table-cell;
+  }
 }
