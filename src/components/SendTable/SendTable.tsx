@@ -17,7 +17,7 @@ function SendTable({ sendData }: SendTableProps) {
     <table className={styles.table}>
       <SendTableHeader />
       <tbody>
-        {sendData.map((send) => (
+        {sendData.sort((s1, s2) => s2.date - s1.date).map((send) => (
           <SendRow key={send.id} send={send} />
         ))}
       </tbody>
